@@ -19,10 +19,26 @@
 		  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
 		  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 		  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-		  padding: 10px;
+		  
 		  background: black;
 		}
-
+	.my{
+      max-width: calc(100% - 100px);
+      margin: 0 50px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      padding: 0;
+     }
+	 
+	 .your{
+	 	 max-width: calc(100% - 100px);
+      margin: 0 50px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      padding: 0;
+	  
+	 }
+	
 	</style>
 </head>
 <body> 
@@ -30,7 +46,6 @@
 <div class="container">
   <center><h2>SliveS Video Call </h2></center>
   <div class="row">
-  
   
   <div class="col-md-6">
    <video id="remoteVideo" class="your" autoplay></video>
